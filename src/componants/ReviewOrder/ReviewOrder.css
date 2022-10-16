@@ -1,0 +1,50 @@
+.review-order {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border: solid 1px gray;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.review-order img {
+    border-radius: 5px;
+    width: 91px;
+    margin-right: 5px;
+}
+
+.details-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.details h3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.details p {
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Detete brtn */
+.delete-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(235, 87, 87, 0.3);
+}
+
+.delete-font {
+    color: #EB5757;
+    font-size: 31px;
+}

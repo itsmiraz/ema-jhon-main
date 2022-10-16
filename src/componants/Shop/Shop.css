@@ -1,0 +1,28 @@
+.shop {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.product-container {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.order-summry {
+    background: rgba(255, 153, 0, 0.3);
+}
+
+@media only screen and (max-width: 600px) {
+    .shop {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

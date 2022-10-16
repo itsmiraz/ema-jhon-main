@@ -1,0 +1,14 @@
+.cart {
+    position: sticky;
+    top: 90px;
+    padding: 10px;
+}
+
+.cart button {
+    background: #FF3030;
+    border: none;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 4px 10px;
+    color: white;
+}
